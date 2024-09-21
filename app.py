@@ -1,6 +1,5 @@
-from flask import Flask,render_template,request,session, redirect,jsonify
+from flask import Flask,request,jsonify
 from flask_sqlalchemy import SQLAlchemy
-import requests
 from datetime import datetime
 
 app = Flask(__name__)
